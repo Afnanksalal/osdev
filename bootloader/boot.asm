@@ -10,9 +10,6 @@ extern kernel_main
 
 start:
     cli
-    mov al, 'X'
-    mov ah, 0x07
-    mov [0xb8000], ax
     call kernel_main
 hang:
     hlt

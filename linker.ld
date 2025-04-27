@@ -8,6 +8,7 @@ SECTIONS
     {
         KEEP(*(.multiboot))
         *(.text)
+        *(.text.*)
     }
 
     .data :
